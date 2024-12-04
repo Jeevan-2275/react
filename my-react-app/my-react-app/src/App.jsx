@@ -22,7 +22,13 @@ function App() {
             <div className="title">
                 <div><img className="h1" src={jeevan} alt="" /></div>
                 <div className="h2">
-                    <p ><p>LOTTERY</p><p >INSTANT</p><p className="A3">CASINO</p><p className="A4">SPORTS</p><p className="A5">WINNERS</p><p className="A6">LEARN</p>
+                    <p className="align">
+                        <p className="A1">LOTTERY</p>
+                        <p className="A2">INSTANT</p>
+                        <p className="A3">CASINO</p>
+                        <p className="A4">SPORTS</p>
+                        <p className="A5">WINNERS</p>
+                        <p className="A6">LEARN</p>
                     </p>
                 </div>
 
