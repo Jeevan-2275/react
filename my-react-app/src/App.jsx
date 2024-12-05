@@ -14,6 +14,8 @@ import jeevan12 from './assets/img11.png';
 import jeevan13 from './assets/img12.png';
 import jeevan14 from './assets/img13.png';
 
+
+
 import './index.css';
 
 function App() {
@@ -22,9 +24,9 @@ function App() {
             <div className="title">
                 <div><img className="h1" src={jeevan} alt="" /></div>
                 <div className="h2">
-                    <p ><p>LOTTERY</p><p >INSTANT</p><p className="A3">CASINO</p><p className="A4">SPORTS</p><p className="A5">WINNERS</p><p className="A6">LEARN</p>
-                    </p>
-                </div>
+                    <p>LOTTERY</p><p >INSTANT</p><p >CASINO</p><p >SPORTS</p><p >WINNERS</p><p >LEARN</p>
+                  
+                </div><hr />
 
                 <div className="blinking-image">
                     <img src={jeevan1} alt="Blinking Image" />
@@ -88,38 +90,46 @@ function App() {
                 </div>
 
                 <div><p className="a19">PLAY LOTTERY ONLINE WITH MORE GAMES TO CHOOSE FROM!</p></div>
-                <div><p className="a20">view</p></div>
+                <div><p className="a20">view </p></div>
 
                 <div className="body5">
                     <div className="image-container">
                         <img src={jeevan10} alt="Image" className="image" />
                         <div className="popup-box box1">BUY TICKET</div>
                         <div className="popup-box box2">LEARN MORE</div>
-                        <div><p className="a21">$80,000,000 est.</p><p className="a22">PLUS 29 MAXMILLIONS EST.</p></div>
+                        <div><p className="a21">$80,000,000 est.</p><p className="a22">PLUS 29</p><p class="a23"> MAXMILLIONS EST.</p></div>
                     </div>
                     <div className="image-container">
                         <img src={jeevan11} alt="Image" className="image" />
                         <div className="popup-box box1">BUY TICKET</div>
                         <div className="popup-box box2">LEARN MORE</div>
+                        <div><p className="a24">$5,000,000 est.</p><p className="a25">GOLD Ball</p><p class="a26"> OR $1 Million Prize</p></div>
+
                     </div>
                     <div className="image-container">
                         <img src={jeevan12} alt="Image" className="image" />
                         <div className="popup-box box1">BUY TICKET</div>
                         <div className="popup-box box2">LEARN MORE</div>
+                        <div><p className="a27">$1,000 a DAY for</p><p className="a28">LIFE</p></div>
+
                     </div>
                     <div className="image-container">
                         <img src={jeevan13} alt="Image" className="image" />
                         <div className="popup-box box1">BUY TICKET</div>
                         <div className="popup-box box2">LEARN MORE</div>
+                        <p class="a29"> $690,000 est.</p>
                     </div>
                     <div className="image-container">
                         <img src={jeevan14} alt="Image" className="image" />
                         <div className="popup-box box1">BUY TICKET</div>
                         <div className="popup-box box2">LEARN MORE</div>
+                        <p class="a30"> $690,000 est.</p>
                     </div>
                 </div>
+                
             </div>
         </div>
+            
     );
 }
 
